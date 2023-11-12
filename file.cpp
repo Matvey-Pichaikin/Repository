@@ -1,4 +1,4 @@
-#include <iostream>
+#include "math_function.h"
 
 using namespace std;
 
@@ -36,6 +36,8 @@ int main()
 
     cout << "Enter a mathematical operation ('+', '-', '*', '/'): ";
     cin >> math_operation;
+
+    cout << "Result = " << math_function(first_number, second_number, math_operation);
     
     return 0;
 }
